@@ -1,0 +1,27 @@
+* {
+  box-sizing:border-box
+}
+
+h2 {
+  color:white;
+  font-size:large;
+  background-color:black;
+  text-align: center;
+  } /* I have two h2 tags (here and in <style> because I'm messing around) .. I also did some weird inherited spacing */
+
+.info {
+  display: flex; /*I guess this isn't a thing in CSS 2.1... */
+  width:90%;
+}
+
+.photo {
+  padding:10px;
+}
+
+.footer {
+	text-align:center;
+}
+
+footer {
+	text-align: center;
+}
